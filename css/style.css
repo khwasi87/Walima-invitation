@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.js-reveal {
+    opacity: 1;
+    transition: opacity .7s ease-in, margin-top .7s ease-out;
+  }
+  
+  .js-reveal--hidden {
+    opacity: 0;
+    margin-top: 3em;
+  }
+
+body{
+    background-color: #FEF7E5;
+    padding: 6px 0;
+}
+
+.container{
+    background: url(../img/wedding-back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 425px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+header{
+    background: transparent;
+    width: 100%;
+    padding: 12px 16px;
+    background: -webkit-linear-gradient(#B67837, #FFE174, #B67837);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2{
+    font-family: 'Luxurious Roman', serif;
+    font-size: 2.5rem;
+}
+header p{
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 2.5rem;
+}
+header img{
+    max-width: 180px;
+    width: 100%;
+    height: auto;
+}
+section{
+    background: transparent;
+    width: 100%;
+    padding: 12px 16px;
+    color: #FEF7E5;
+    margin: 10px auto;
+}
+section aside{
+    margin-top: 10px;
+}
+section address{
+    margin-top: 20px;
+}
+section a button{
+    max-width: 250px;
+    width: 100%;
+    height: fit-content;
+    margin:14px auto;
+    padding: 12px 0;
+    font-size: 1.12rem;
+    border-radius: 0;
+    background-image: linear-gradient(#B67837, #FFE174, #B67837);
+    color: #000;
+    font-weight: 600;
+    border: 0;
+    cursor: pointer;
+}
+
+tbody tr td{
+    font-family: 'Luxurious Roman', serif;
+}
+
+footer{
+    position: static;
+    bottom: 0;
+    color: #FEF7E5;
+}
