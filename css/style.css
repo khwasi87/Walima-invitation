@@ -41,7 +41,7 @@ body{
     position: absolute;
     top: 0;
     right: 0;
-    min-width: 200px;
+    min-width: 190px;
 }
 .frame1 img{
     width: 100%;
@@ -51,7 +51,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    min-width: 200px;
+    min-width: 190px;
 }
 .frame2 img{
     width: 100%;
