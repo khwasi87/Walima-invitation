@@ -111,6 +111,7 @@ section{
 }
 section aside{
     margin-top: 10px;
+    font-size: 1.12rem;
 }
 section address{
     margin-top: 20px;
@@ -119,7 +120,7 @@ section a button{
     max-width: 250px;
     width: 100%;
     height: fit-content;
-    margin:14px auto;
+    margin:20px auto;
     padding: 12px 0;
     font-size: 1.12rem;
     border-radius: 0;
