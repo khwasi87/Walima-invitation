@@ -63,7 +63,7 @@ body{
         position: absolute;
         top: 0;
         right: 0;
-       max-width: 150px;
+       max-width: 155px;
     }
     .frame1 img{
         width: 100%;
@@ -73,7 +73,7 @@ body{
         position: absolute;
         top: 0;
         left: 0;
-        max-width: 150px;
+        max-width: 155px;
     }
     .frame2 img{
         width: 100%;
