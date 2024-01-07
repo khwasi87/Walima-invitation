@@ -41,7 +41,7 @@ body{
     position: absolute;
     top: 0;
     right: 0;
-    min-width: 190px;
+   max-width: 142px;
 }
 .frame1 img{
     width: 100%;
@@ -51,11 +51,34 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    min-width: 190px;
+    max-width: 142px;
 }
 .frame2 img{
     width: 100%;
     height: auto;
+}
+
+@media only screen and (max-width: 376px) {
+    .frame1{
+        position: absolute;
+        top: 0;
+        right: 0;
+       max-width: 150px;
+    }
+    .frame1 img{
+        width: 100%;
+        height:auto;
+    }
+    .frame2{
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 150px;
+    }
+    .frame2 img{
+        width: 100%;
+        height: auto;
+    }
 }
 
 header{
